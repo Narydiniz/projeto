@@ -20,7 +20,7 @@ body{
     margin-bottom: 12px;
 }
 .topo{
-    background-image: url(imagens/header.jpg);
+    background-image: url(imagens/header\ 2.jpg);
     background-position: 50% 40%;
     display: flex;
     flex-direction: column;
@@ -30,24 +30,28 @@ body{
     display: flex;
     align-items: center;  
     margin-top: 10px;
-    margin-bottom: 10PX;
+    margin-bottom: 10px;
+    
+}
+.link{
+    text-decoration: none;
+    color:#393c34;
 }
 .menu {
     display: flex;
     list-style: none;
     background-color:#d3f492;
+    text-decoration: none;
 }
 .nav-item {
     text-align: center;
     justify-content: space-between;
     padding: 6px;
     text-transform: uppercase;
-    color:#393c34;
-    font-size: 18px;
+     font-size: 18px;
     margin-left: auto;
     margin-right: auto;
     font: 400 22px "Bebas Neue";  
-
 }
 .nav-item:hover {
     background-color: rgb(107, 137, 113);
